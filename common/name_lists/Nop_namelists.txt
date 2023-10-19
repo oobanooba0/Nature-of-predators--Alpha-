@@ -1,0 +1,640 @@
+#venlil name list
+venlil = {
+	category = "venlil"
+	ship_names = {
+
+		generic = {
+			"generic ship name"
+		}
+
+		corvette = {"corvette name"
+		}
+
+		destroyer = {"destroyer name"
+		}
+
+		cruiser = {"cruiser name"
+		}
+
+		battleship = {"battleship name"
+		}
+
+		titan = {"Titan name"
+		}
+
+		colossus = { "colossus name"
+		}
+
+		science = { "science ship name"
+		}
+
+		colonizer = {"colony ship name"
+		}
+
+		constructor = {"construction ship name"
+		}
+
+		transport = {"fleet carrier"
+		}
+
+		military_station_small = {"defence platform name"
+		}
+
+		ion_cannon = {"Ion cannon name"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			"ship class name"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"fleet name"
+		}
+		sequential_name = venlilfleetseq
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = venlilmachinedefensearmyseq
+		}
+
+		machine_assault_1 = {
+			sequential_name = venlilmachineassultarmy1seq
+		}
+
+		machine_assault_2 = {
+			sequential_name = venlilmachineassultarmy2seq
+		}
+
+		machine_assault_3 = {
+			sequential_name = venlilmachineassultarmy3seq
+		}
+
+		defense_army = {
+			sequential_name = venlildefensearmyseq
+		}
+
+		assault_army = {
+			sequential_name = venlilassultarmyseq
+		}
+
+		slave_army = {
+			sequential_name = venlilslavearmyseq
+		}
+
+		clone_army = {
+			sequential_name = venlilclonearmyseq
+		}
+
+		undead_army = {
+			sequential_name = venlilundeadarmyseq
+		}
+
+		robotic_army = {
+			sequential_name = venlilroboticarmyseq
+		}
+
+		robotic_defense_army = {
+			sequential_name = venlilroboticdefensearmyseq
+		}
+
+		psionic_army = {
+			sequential_name = venlilpsionicarmyseq
+		}
+
+		xenomorph_army = {
+			sequential_name = venlilxenomorpharmyseq
+		}
+
+		gene_warrior_army = {
+			sequential_name = venlilgenewarriorarmyseq
+		}
+
+		occupation_army = {
+			sequential_name = venliloccupationarmyseq
+		}
+
+		robotic_occupation_army = {
+			sequential_name = venlilroboticoccupationarmyseq
+		}
+
+		primitive_army = {
+			sequential_name = venlilprimativearmyseq
+		}
+		industrial_army = {
+			sequential_name = venlilindustrialarmyseq
+		}
+		postatomic_army = {
+			sequential_name = venlilpostatomicarmyseq
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"planet name" "planet name2" "planet name3" "planet name4" "planet name5"
+			}
+		}
+
+		pc_desert = {
+			names = { "desert world name"
+			}
+		}
+
+		pc_tropical = {
+			names = { "tropical world name"
+			}
+		}
+
+		pc_arid = {
+			names = { "arid world name"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"continental world name"
+			}
+		}
+
+		pc_ocean = {
+			names = {"ocean world name"
+			}
+		}
+
+		pc_tundra = {
+			names = {"taundra world name"
+			}
+		}
+
+		pc_arctic = {
+			names = { "artic world name"
+			}
+		}
+
+		pc_savannah = {
+			names = {"savannah world name"
+			}
+		}
+
+		pc_alpine = {
+			names = { "alpine world name"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			full_names = { #I cant set them up to use the correct gender unless i have the correct gender for every name in the list. so for now we will have males appearing as females and visa versa, its a minor detail but a little annoying.
+			#these are ungendered names
+			"Cheln" "Aila" "Alvi" "Aren" "Avavali" "Azik" "Barlen" "Birin" "Blim" "Borven" "Callsi" "Calo" "Carliva" "Cylek" "Dalia" "Derva" "Elva" "Emli" "Farin" "Felaf" "Fevri" "Gelik" "Genti" "Glenil" "Gretty" "Haeli" "Hale"
+			"Hana" "Hashi" "Heshin" "Iija" "Ilnek" "Inva" "Irvo" "Jalnak" "Japet" "Jarun-del" "Jellaq" "Jimek" "Jurzula" "Jyssh" "Jyven" "Kaabra" "Kalio" "Kaulin" "Kaveel" "Keehl" "Kefte" "Kerim" "Kevri" "Keya" "Kinet" "Kivri" "Kiwa" "Kotaka" "Kyndl" "Lamet"
+			"Lani" "Lashi" "Leksi" "Lelva" "Lemmhaist" "Limmi" "Lindet" "Linev" "Lunek" "Mara" "Marik" "Marklen" "Marlik" "Milam" "Miva" "Mollsi" "Movin" "Mula" "Mulnek" "Nalva" "Nam" "Nel" "Nessa" "Nila" "Nulin" "Orli" "Orlim" "Ovuk" "Pharva" "Phim" "Querek"
+			"Rauln" "Reann" "Reika" "Rejio" "Relen" "Remsi" "Renak" "Riga" "Rivis" "Rolem" "Rulsom" "Rysel" "Saesh" "Sandi" "Sant" "Selvi" "Serni" "Set" "Sev" "Sialsi" "Silmia" "Sivlek" "Slavik" "Slenk" "Souvia" "Stram" "Suldet" "Svi" "Talek" "Talen" "Tarrem"
+			"Tavik" "Taysil" "Telvek" "Tesi" "Tevak" "Thima" "Thiva" "Tibek" "Tihal" "Tilek" "Tilpo" "Toben" "Tolim" "Torum" "Trevin" "Trinsa" "Triva" "Trvar" "Tumi" "Upsilta" "Valek" "Vali" "Vana" "Vansi" "Varen" "Varin" "Vatri" "Vaun" "Velan" "Veldi" "Velpa"
+			"Venik" "Venven" "Verek" "Vern" "Vern" "Very" "Vibren" "Vikri" "Vila" "Vilek" "Vilik" "Vilrak" "Vilsa" "Vira" "Vlen" "Voana" "Volek" "Vrikal" "Vuken" "Yarmeh" "Zeitaff" "Zeleveya" "Zem" "Zicaeron"
+
+			"Lambchop" "Marik" #these are kinda joke names
+			#male names here
+			
+			"Veles" "Zurrie" 
+			
+			"Glim" "Kam" "Slanek" "Anaw" "Blyne" "Ezin" "Jobek" "Jauntes" "Koll" "Mezil" "Nekrin" "Tarlim" "Gaaso"
+
+			#female names
+			"Tarva" "Haysi" "Aebl" "Gela" "Kila" "Lanyd" "Nimmy" "Sharnet" "Vekna" "Vemly" "Vnal" "Caete"
+			}
+
+			
+			}
+		}
+	}
+
+
+#arxur name list
+arxur = {
+	category = "arxur"
+	ship_names = {
+
+		generic = {
+			"generic ship name"
+		}
+
+		corvette = {"corvette name"
+		}
+
+		destroyer = {"destroyer name"
+		}
+
+		cruiser = {"cruiser name"
+		}
+
+		battleship = {"battleship name"
+		}
+
+		titan = {"Titan name"
+		}
+
+		colossus = { "colossus name"
+		}
+
+		science = { "science ship name"
+		}
+
+		colonizer = {"colony ship name"
+		}
+
+		constructor = {"construction ship name"
+		}
+
+		transport = {"fleet carrier"
+		}
+
+		military_station_small = {"defence platform name"
+		}
+
+		ion_cannon = {"Ion cannon name"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			"ship class name"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"fleet name"
+		}
+		sequential_name = arxurfleetseq
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = arxurmachinedefensearmyseq
+		}
+
+		machine_assault_1 = {
+			sequential_name = arxurmachineassultarmy1seq
+		}
+
+		machine_assault_2 = {
+			sequential_name = arxurmachineassultarmy2seq
+		}
+
+		machine_assault_3 = {
+			sequential_name = arxurmachineassultarmy3seq
+		}
+
+		defense_army = {
+			sequential_name = arxurdefensearmyseq
+		}
+
+		assault_army = {
+			sequential_name = arxurassultarmyseq
+		}
+
+		slave_army = {
+			sequential_name = arxurslavearmyseq
+		}
+
+		clone_army = {
+			sequential_name = arxurclonearmyseq
+		}
+
+		undead_army = {
+			sequential_name = arxurundeadarmyseq
+		}
+
+		robotic_army = {
+			sequential_name = arxurroboticarmyseq
+		}
+
+		robotic_defense_army = {
+			sequential_name = arxurroboticdefensearmyseq
+		}
+
+		psionic_army = {
+			sequential_name = arxurpsionicarmyseq
+		}
+
+		xenomorph_army = {
+			sequential_name = arxurxenomorpharmyseq
+		}
+
+		gene_warrior_army = {
+			sequential_name = arxurgenewarriorarmyseq
+		}
+
+		occupation_army = {
+			sequential_name = arxuroccupationarmyseq
+		}
+
+		robotic_occupation_army = {
+			sequential_name = arxurroboticoccupationarmyseq
+		}
+
+		primitive_army = {
+			sequential_name = arxurprimativearmyseq
+		}
+		industrial_army = {
+			sequential_name = arxurindustrialarmyseq
+		}
+		postatomic_army = {
+			sequential_name = arxurpostatomicarmyseq
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"planet name"
+			}
+		}
+
+		pc_desert = {
+			names = { "desert world name"
+			}
+		}
+
+		pc_tropical = {
+			names = { "tropical world name"
+			}
+		}
+
+		pc_arid = {
+			names = { "arid world name"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"continental world name"
+			}
+		}
+
+		pc_ocean = {
+			names = {"ocean world name"
+			}
+		}
+
+		pc_tundra = {
+			names = {"taundra world name"
+			}
+		}
+
+		pc_arctic = {
+			names = { "artic world name"
+			}
+		}
+
+		pc_savannah = {
+			names = {"savannah world name"
+			}
+		}
+
+		pc_alpine = {
+			names = { "alpine world name"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			full_names = {
+				Giznel "Isif" "Kaisal" "Shaza" "Ashai" "Cozt" "Crevan" "Dravok" "Etszlas" "Gazen" "Hrallak" "Imlit" "Irshal" "Iselza" "Ishviel" "Isval" "Izak" "Izal" "Jerum" "Kazeth" "Kazza" "Kishal" "Kitzz" "Laza" "Lesh" 
+				"Mico" "Roshak" "Selik" "Shenzu" "Sifal" "Skarreth" "Task" "Task" "Ternian" "Tirosk" "Vircha" "Vriss" "Zillis"
+				}
+			}
+		}
+	}
+
+#UN name list
+UN = {
+	category = "un"
+	ship_names = {
+
+		generic = {
+			"HMS Victoria" "USS Kindness"
+		}
+
+		corvette = {"corvette name"
+		}
+
+		destroyer = {"destroyer name"
+		}
+
+		cruiser = {"cruiser name"
+		}
+
+		battleship = {"battleship name"
+		}
+
+		titan = {"Titan name"
+		}
+
+		colossus = { "colossus name"
+		}
+
+		science = { "science ship name"
+		}
+
+		colonizer = {"colony ship name"
+		}
+
+		constructor = {"construction ship name"
+		}
+
+		transport = {"fleet carrier"
+		}
+
+		military_station_small = {"defence platform name"
+		}
+
+		ion_cannon = {"Ion cannon name"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+			"ship class name"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"fleet name"
+		}
+		sequential_name = unfleetseq
+	}
+
+	army_names = {
+
+		machine_defense = {
+			sequential_name = unmachinedefensearmyseq
+		}
+
+		machine_assault_1 = {
+			sequential_name = unmachineassultarmy1seq
+		}
+
+		machine_assault_2 = {
+			sequential_name = unmachineassultarmy2seq
+		}
+
+		machine_assault_3 = {
+			sequential_name = unmachineassultarmy3seq
+		}
+
+		defense_army = {
+			sequential_name = undefensearmyseq
+		}
+
+		assault_army = {
+			sequential_name = unassultarmyseq
+		}
+
+		slave_army = {
+			sequential_name = unslavearmyseq
+		}
+
+		clone_army = {
+			sequential_name = unclonearmyseq
+		}
+
+		undead_army = {
+			sequential_name = unundeadarmyseq
+		}
+
+		robotic_army = {
+			sequential_name = unroboticarmyseq
+		}
+
+		robotic_defense_army = {
+			sequential_name = unroboticdefensearmyseq
+		}
+
+		psionic_army = {
+			sequential_name = unpsionicarmyseq
+		}
+
+		xenomorph_army = {
+			sequential_name = unxenomorpharmyseq
+		}
+
+		gene_warrior_army = {
+			sequential_name = ungenewarriorarmyseq
+		}
+
+		occupation_army = {
+			sequential_name = unoccupationarmyseq
+		}
+
+		robotic_occupation_army = {
+			sequential_name = unroboticoccupationarmyseq
+		}
+
+		primitive_army = {
+			sequential_name = unprimativearmyseq
+		}
+		industrial_army = {
+			sequential_name = unindustrialarmyseq
+		}
+		postatomic_army = {
+			sequential_name = unpostatomicarmyseq
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"planet name"
+			}
+		}
+
+		pc_desert = {
+			names = { "desert world name"
+			}
+		}
+
+		pc_tropical = {
+			names = { "tropical world name"
+			}
+		}
+
+		pc_arid = {
+			names = { "arid world name"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"continental world name"
+			}
+		}
+
+		pc_ocean = {
+			names = {"ocean world name"
+			}
+		}
+
+		pc_tundra = {
+			names = {"taundra world name"
+			}
+		}
+
+		pc_arctic = {
+			names = { "artic world name"
+			}
+		}
+
+		pc_savannah = {
+			names = {"savannah world name"
+			}
+		}
+
+		pc_alpine = {
+			names = { "alpine world name"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			first_names_male = { "Ashar" "Zhao" "Barry" "Charmaine" "Cotton" "David" "Desmond" "Mario" "Maurice" "Mitchell" "Sam" "Simon" "Steve" "Vostok" "William" "Charlie" "Carlos" "Elias" "Olek" "Tyler" "Alexi" "Adrian" "Aldo" "Alejandro" "Aleksander" "Alex"
+			"Alexander" "Antonio" "Atama" "Bernard" "Brad" "Chris" "Colton" "Douglas" "Rick" "Drew" "Emanuel" "Harrison" "Hector" "Heinrich" "Henrik" "Jackson" "Jacob" "James" "Jamiethon" "John" "Johnathon" "Lance" "Marcus" "Nathan" "Nick" "Rodger" "Rosin" "Steven" 
+			"Marcel" "Noah" "Ryan"
+				
+			}
+			first_names_female = { "Alexandra" "Maeve" "Sam" "Sherry" "Lisa" "Sara" "Cora" "Cyril" "Mary" "Mei" "Elena" "Emily" "Grace" "Maria" "Markéta" "Olivia" "Janet" "Annabeth" "Valerie" "Skye"
+				
+			}
+			second_names = { "Graddus" "Mitchell" "Romero" "Meier" "Bondarenko" "Cardona" "Ilyanov" "Richard" "Ramirez" "Molina" "Kovač" "Strider" "Wright" "Perez" "Oliver" "MacEwan" "Silmore" "Evans" "Anderson" "Brenner" "Parker" "Jacobson" "Miller" "Santos" "Woods"
+			"Valdez" "Frederick" "Andersen" "Wilson" "Frieser" "Aldair" "Grant" "Edwards" "Lawrence" "Obzinov" "Gidbrook" "Fraser" "Williams" "Reynolds" "Rosario" "Sloan" "Clement" "Khan" "Chan""Fialová" "Lee""Kaspek" "Pearson" "Bradley"
+				
+			}
+
+			full_names_male = {
+				"Orion" "Carlos Romero" "Elias Meier" "Olek Bondarenko" "Tyler Cardona" "Alexi Ilyanov" "Adrian Richard" "Aldo Ramirez" "Alejandro Molina" "Aleksander Kovač" "Alex Strider" "Alexander Wright" "Antonio Perez" "Atama Oliver" "Bernard MacEwan"
+				"Brad Silmore" "Chris Evans" "Colton Anderson" "David Brenner" "Douglas Parker" "Rick Jacobson" "Drew Miller" "Emanuel Santos" "Harrison Woods" "Hector Valdez" "Heinrich Frederick" "Henrik Andersen" "Jackson Wilson" "Jacob Frieser" "James Aldair"
+				"Jamiethon Appleseed Hunter" "John Macintyre" "John Morris" "Johnathon Periwinkle Hunter" "Lance Cross" "Marcus Jackson" "Mitch Rosley" "Nathan Irons" "Nick Baker" "Rodger Cross" "Rosin Gallagher" "Steven Park"
+				"Theo Grant" "Turk Edwards" "Ty Lawrence" "Vlad Obzinov" "Wes Gidbrook" "Marcel Fraser" "Noah Williams""Johnny Silverhand" "Peter Parker"
+			}
+			full_names_female = {
+				"Lisa Reynolds" "Sara Rosario" "Sara Rosario" "Cora Sloan" "Cyril Edwards" "Mary Clement" "Mei Khan" "Elena Reyes" "Emily Chan" "Grace Patel" "Maria Valdez" "Markéta Fialová" "Olivia Lee" "Janet Kaspek" "Annabeth Miller"
+				"Valerie Pearson" "Skye Bradley"
+			}
+
+		}
+	}
+}

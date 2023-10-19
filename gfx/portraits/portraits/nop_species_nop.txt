@@ -1,0 +1,102 @@
+#venlil portrait initialisers (these get the venlil portraits into the game) remember to also like do the thing in nop_speices_classes.txt
+portraits = {
+	venlil0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/venlil0.png"   }
+	venlil1 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/venlil1.png"   }
+	}
+	portrait_groups = {
+	venlil = {
+	default = venlil0
+	game_setup = {
+	add = {
+	portraits = {
+		venlil0
+		venlil1
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		venlil0
+		venlil1
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		venlil0
+		venlil1
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		venlil0
+		venlil1
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		venlil0
+		venlil1
+	}
+	}
+	}
+	}
+	}
+
+#arxur portrait initialiser
+portraits = {
+	arxur0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/arxur0.png"   }
+	arxur1 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/arxur1.png"   }
+	}
+	portrait_groups = {
+	arxur = {
+	default = arxur0
+	game_setup = {
+	add = {
+	portraits = {
+		arxur0
+		arxur1
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		arxur0
+		arxur1
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		arxur0
+		arxur1
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		arxur0
+		arxur1
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		arxur0
+		arxur1
+	}
+	}
+	}
+	}
+	}
+	
