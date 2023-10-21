@@ -97,6 +97,7 @@ ethic_fanatic_prey = {
 }
 
 ethic_prey = {
+
 	cost = 1
 	category = "pre"
 	category_value = 3

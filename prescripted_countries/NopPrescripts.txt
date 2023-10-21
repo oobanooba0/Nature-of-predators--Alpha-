@@ -2,7 +2,7 @@
 "Venlil Republic"={
 	key="Venlil Republic"
 	ship_prefix={
-		key="VSC"
+		key=""
 		literal=yes
 	}
 	species={
@@ -96,11 +96,11 @@
 		attachment=0
 		clothes=0
 		ruler_title={
-			key="Govener"
+			key="Govenor"
 			literal=yes
 		}
 		ruler_title_female={
-			key="Govener"
+			key="Govenor"
 			literal=yes
 		}
 		custom_biography={

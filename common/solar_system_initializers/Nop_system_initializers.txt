@@ -46,9 +46,6 @@ Venlilprimesystem = {
 
 		init_effect = {
 			prevent_anomaly = yes
-		}
-
-		init_effect = {
 			generate_empire_home_planet = yes #id love to add tidally locked to this planet but unfortunately stellaris has an event that clears the feature on map generation
 		}
 	}
