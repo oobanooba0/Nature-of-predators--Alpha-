@@ -96,11 +96,11 @@
 		attachment=0
 		clothes=0
 		ruler_title={
-			key="Governer"
+			key="Govener"
 			literal=yes
 		}
 		ruler_title_female={
-			key="Governer"
+			key="Govener"
 			literal=yes
 		}
 		custom_biography={
@@ -117,6 +117,7 @@
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_prey"
 	civics={
 		"civic_police_state"
 		"civic_diplomatic_corps"
@@ -161,30 +162,31 @@
 	}
 	authority="auth_dictatorial"
 	government="gov_bandit_kingdom"
+	advisor_voice_type="l_authoritarian"
 	planet_name={
-		key="fuckn idk"
+		key="Wriss"
 		literal=yes
 	}
 	planet_class="pc_ocean"
 	system_name={
-		key="idk"
+		key="Wriss"
 		literal=yes
 	}
-	initializer=""
+	initializer="custom_starting_init_05"
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="domination"
-			file="domination_18.dds"
+			category="blocky"
+			file="flag_blocky_6.dds"
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="flag_BG_41.dds"
 		}
 		colors={
 			"red"
-			"grey"
+			"black"
 			"black"
 			"null"
 		}
@@ -209,6 +211,10 @@
 			key="High Prophet"
 			literal=yes
 		}
+		custom_biography={
+			key="He ate people, which is probbably bad"
+			literal=yes
+		}
 		trait="leader_trait_legendary_harsh_ruler"
 		trait="leader_trait_legendary_military_knowledge"
 		trait="leader_trait_legendary_foe_hammer"
@@ -220,6 +226,7 @@
 	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_militarist"
+	ethic="ethic_fanatic_predator"
 	civics={
 		"civic_barbaric_despoilers"
 		"civic_dystopian_society"
@@ -332,6 +339,7 @@
 	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_xenophile"
+	ethic="ethic_omnivore"
 	civics={
 		"civic_beacon_of_liberty"
 		"civic_idealistic_foundation"

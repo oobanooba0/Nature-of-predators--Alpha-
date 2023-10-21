@@ -1,0 +1,131 @@
+###haha hope this works
+
+ethic_fanatic_predator = {
+	cost = 1
+	category = "pre"
+	category_value = 0
+
+	use_for_pops = no
+
+	regular_variant = ethic_predator
+
+	country_modifier = {
+		country_ethic_influence_produces_add = 10
+	}
+
+	tags = {
+
+	}
+
+	random_weight = {
+		base = 150
+	}
+}
+
+ethic_predator = {
+	cost = 1
+	category = "pre"
+	category_value = 1
+
+	fanatic_variant = ethic_fanatic_predator
+
+	leader_background_job_weight = {
+		politician = 25
+		noble = 25
+		executive = 25
+		bureaucrat = 25
+		manager = 25
+	}
+
+	country_modifier = {
+		country_ethic_influence_produces_add = 5
+	}
+
+	tags = {
+
+	}
+
+	random_weight = {
+		base = 100
+	}
+	country_attraction = {
+		base = 1
+	}
+	pop_attraction = {
+		base = 1
+	}
+}
+
+ethic_omnivore = {
+	cost = 1
+	category = "pre"
+	category_value = 2
+
+	use_for_pops = no
+
+	country_modifier = {
+	}
+
+	tags = {
+	}
+
+	random_weight = {
+		base = 150
+	}
+}
+
+ethic_fanatic_prey = {
+	cost = 1
+	category = "pre"
+	category_value = 4
+
+	use_for_pops = no
+
+	regular_variant = ethic_prey
+
+	country_modifier = {
+		country_leader_pool_size = 1
+	}
+
+	tags = {
+
+	}
+
+	random_weight = {
+		base = 150
+	}
+}
+
+ethic_prey = {
+	cost = 1
+	category = "pre"
+	category_value = 3
+
+	fanatic_variant = ethic_fanatic_prey
+
+	leader_background_job_weight = {
+		politician = 25
+		noble = 25
+		executive = 25
+		bureaucrat = 25
+		manager = 25
+	}
+
+	country_modifier = {
+		country_ethic_influence_produces_add = 2
+	}
+
+	tags = {
+
+	}
+
+	random_weight = {
+		base = 100
+	}
+	country_attraction = {
+		base = 1
+	}
+	pop_attraction = {
+		base = 1
+	}
+}
