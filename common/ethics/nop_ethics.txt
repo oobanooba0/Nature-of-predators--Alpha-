@@ -49,10 +49,10 @@ ethic_predator = {
 		base = 100
 	}
 	country_attraction = {
-		base = 1
+		base = 10
 	}
 	pop_attraction = {
-		base = 1
+		base = 10
 	}
 }
 
@@ -124,9 +124,9 @@ ethic_prey = {
 		base = 100
 	}
 	country_attraction = {
-		base = 1
+		base = 10
 	}
 	pop_attraction = {
-		base = 1
+		base = 10
 	}
 }
