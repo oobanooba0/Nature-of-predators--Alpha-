@@ -198,7 +198,7 @@ venlil = {
 			"Lani" "Lashi" "Leksi" "Lelva" "Lemmhaist" "Limmi" "Lindet" "Linev" "Lunek" "Mara" "Marik" "Marklen" "Marlik" "Milam" "Miva" "Mollsi" "Movin" "Mula" "Mulnek" "Nalva" "Nam" "Nel" "Nessa" "Nila" "Nulin" "Orli" "Orlim" "Ovuk" "Pharva" "Phim" "Querek"
 			"Rauln" "Reann" "Reika" "Rejio" "Relen" "Remsi" "Renak" "Riga" "Rivis" "Rolem" "Rulsom" "Rysel" "Saesh" "Sandi" "Sant" "Selvi" "Serni" "Set" "Sev" "Sialsi" "Silmia" "Sivlek" "Slavik" "Slenk" "Souvia" "Stram" "Suldet" "Svi" "Talek" "Talen" "Tarrem"
 			"Tavik" "Taysil" "Telvek" "Tesi" "Tevak" "Thima" "Thiva" "Tibek" "Tihal" "Tilek" "Tilpo" "Toben" "Tolim" "Torum" "Trevin" "Trinsa" "Triva" "Trvar" "Tumi" "Upsilta" "Valek" "Vali" "Vana" "Vansi" "Varen" "Varin" "Vatri" "Vaun" "Velan" "Veldi" "Velpa"
-			"Venik" "Venven" "Verek" "Vern" "Vern" "Very" "Vibren" "Vikri" "Vila" "Vilek" "Vilik" "Vilrak" "Vilsa" "Vira" "Vlen" "Voana" "Volek" "Vrikal" "Vuken" "Yarmeh" "Zeitaff" "Zeleveya" "Zem" "Zicaeron"
+			"Venik" "Venven" "Verek" "Vern" "Vern" "Very" "Vibren" "Vikri" "Vila" "Vilek" "Vilik" "Vilrak" "Vilsa" "Vira" "Vlen" "Voana" "Volek" "Vrikal" "Vuken" "Yarmeh" "Zeitaff" "Zeleveya" "Zem" "Zicaeron" "Aldev" "Yael" "Tali" "Fousk" "Tzatz" "Moussa" "Dolmad" "Spanak" "Poutsa" "Stitsio"
 
 			"Lambchop" "Marik" #these are kinda joke names
 			#male names here
@@ -412,7 +412,7 @@ arxur = {
 		default = {
 			full_names = {
 				Giznel "Isif" "Kaisal" "Shaza" "Ashai" "Cozt" "Crevan" "Dravok" "Etszlas" "Gazen" "Hrallak" "Imlit" "Irshal" "Iselza" "Ishviel" "Isval" "Izak" "Izal" "Jerum" "Kazeth" "Kazza" "Kishal" "Kitzz" "Laza" "Lesh" 
-				"Mico" "Roshak" "Selik" "Shenzu" "Sifal" "Skarreth" "Task" "Task" "Ternian" "Tirosk" "Vircha" "Vriss" "Zillis"
+				"Mico" "Roshak" "Selik" "Shenzu" "Sifal" "Skarreth" "Task" "Task" "Ternian" "Tirosk" "Vircha" "Vriss" "Zillis" "Losyirn" "Taraz" "Sgurin" "Kaegric" "Viath" "Shesh" "Jörmun" "Slen" "Hecat" "Briare" "Cott" "Gyg" "Behe'em" "Taras" "Siljek" "Silval" "Ikfriss" "Morek" "Typh" "Khimer" "Kramp" "Nephili" "Echid" "Ilisk" "Incub"
 				}
 			}
 		}
@@ -613,14 +613,15 @@ UN = {
 		default = {
 			first_names_male = { "Ashar" "Zhao" "Barry" "Charmaine" "Cotton" "David" "Desmond" "Mario" "Maurice" "Mitchell" "Sam" "Simon" "Steve" "Vostok" "William" "Charlie" "Carlos" "Elias" "Olek" "Tyler" "Alexi" "Adrian" "Aldo" "Alejandro" "Aleksander" "Alex"
 			"Alexander" "Antonio" "Atama" "Bernard" "Brad" "Chris" "Colton" "Douglas" "Rick" "Drew" "Emanuel" "Harrison" "Hector" "Heinrich" "Henrik" "Jackson" "Jacob" "James" "Jamiethon" "John" "Johnathon" "Lance" "Marcus" "Nathan" "Nick" "Rodger" "Rosin" "Steven" 
-			"Marcel" "Noah" "Ryan"
+			"Marcel" "Noah" "Ryan" "Jonah" "Clark" "Sebastian" "Kyle"
 				
 			}
-			first_names_female = { "Alexandra" "Maeve" "Sam" "Sherry" "Lisa" "Sara" "Cora" "Cyril" "Mary" "Mei" "Elena" "Emily" "Grace" "Maria" "Markéta" "Olivia" "Janet" "Annabeth" "Valerie" "Skye"
+			first_names_female = { "Alexandra" "Maeve" "Sam" "Sherry" "Lisa" "Sara" "Cora" "Cyril" "Mary" "Mei" "Elena" "Emily" "Grace" "Maria" "Markéta" "Olivia" "Janet" "Annabeth" "Valerie" "Skye" "Maria" "Margaret" "Gina" "Janine" "Joana"
 				
 			}
 			second_names = { "Graddus" "Mitchell" "Romero" "Meier" "Bondarenko" "Cardona" "Ilyanov" "Richard" "Ramirez" "Molina" "Kovač" "Strider" "Wright" "Perez" "Oliver" "MacEwan" "Silmore" "Evans" "Anderson" "Brenner" "Parker" "Jacobson" "Miller" "Santos" "Woods"
-			"Valdez" "Frederick" "Andersen" "Wilson" "Frieser" "Aldair" "Grant" "Edwards" "Lawrence" "Obzinov" "Gidbrook" "Fraser" "Williams" "Reynolds" "Rosario" "Sloan" "Clement" "Khan" "Chan""Fialová" "Lee""Kaspek" "Pearson" "Bradley"
+			"Valdez" "Frederick" "Andersen" "Wilson" "Frieser" "Aldair" "Grant" "Edwards" "Lawrence" "Obzinov" "Gidbrook" "Fraser" "Williams" "Reynolds" "Rosario" "Sloan" "Clement" "Khan" "Chan""Fialová" "Lee""Kaspek" "Pearson" "Bradley" "Silva" "Ahab"
+			"Hercules" "Cosgrove" "Jeffries" "Hutchins" "Oaker" "Takovic" "Calhoun" "Shephard" "Dlamini"
 				
 			}
 
@@ -628,13 +629,13 @@ UN = {
 				"Orion" "Carlos Romero" "Elias Meier" "Olek Bondarenko" "Tyler Cardona" "Alexi Ilyanov" "Adrian Richard" "Aldo Ramirez" "Alejandro Molina" "Aleksander Kovač" "Alex Strider" "Alexander Wright" "Antonio Perez" "Atama Oliver" "Bernard MacEwan"
 				"Brad Silmore" "Chris Evans" "Colton Anderson" "David Brenner" "Douglas Parker" "Rick Jacobson" "Drew Miller" "Emanuel Santos" "Harrison Woods" "Hector Valdez" "Heinrich Frederick" "Henrik Andersen" "Jackson Wilson" "Jacob Frieser" "James Aldair"
 				"Jamiethon Appleseed Hunter" "John Macintyre" "John Morris" "Johnathon Periwinkle Hunter" "Lance Cross" "Marcus Jackson" "Mitch Rosley" "Nathan Irons" "Nick Baker" "Rodger Cross" "Rosin Gallagher" "Steven Park"
-				"Theo Grant" "Turk Edwards" "Ty Lawrence" "Vlad Obzinov" "Wes Gidbrook" "Marcel Fraser" "Noah Williams""Johnny Silverhand" "Peter Parker"
+				"Theo Grant" "Turk Edwards" "Ty Lawrence" "Vlad Obzinov" "Wes Gidbrook" "Marcel Fraser" "Noah Williams""Johnny Silverhand" "Peter Parker" "Jonah Ahab" "David Ahab" "Clark "David" Hercules" "Steven Cosgrove" "Sebastian Ramirez"
+				"Kyle Takovic" "Adrian Calhoun" "Bernard Shephard"
 			}
 			full_names_female = {
 				"Lisa Reynolds" "Sara Rosario" "Sara Rosario" "Cora Sloan" "Cyril Edwards" "Mary Clement" "Mei Khan" "Elena Reyes" "Emily Chan" "Grace Patel" "Maria Valdez" "Markéta Fialová" "Olivia Lee" "Janet Kaspek" "Annabeth Miller"
-				"Valerie Pearson" "Skye Bradley"
+				"Valerie Pearson" "Skye Bradley" "Maria "Sato" Silva" "Mary Ahab" "Margaret Ahab" "Gina Hercules" "Janine Oaker" "Johannes Dlamini"
 			}
-
 		}
 	}
 }
