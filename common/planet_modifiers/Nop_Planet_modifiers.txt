@@ -1,0 +1,3 @@
+pm_tidal_locked_VenlilPrime = {
+	modifier = "tidal_locked_VenlilPrime"
+}

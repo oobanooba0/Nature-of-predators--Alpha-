@@ -521,17 +521,4 @@
  Hercules:0 "Hercules"
  Sato:0 "Sato"
 
-#Ethic Descriptions
- ethic_fanatic_predator:0 "True Predator"
- ethic_fanatic_predator_desc:0 "We did it for the Arxussy"
- ethic_predator:0 "Predator"
- ethic_predator_desc:0 "REPLACE_ME"
- ethic_fanatic_prey:0 "True Prey"
- ethic_fanatic_prey_desc:0 "REPLACE_ME"
- ethic_prey:0 "Prey"
- ethic_prey_desc:0 "REPLACE_ME"
- ethic_omnivore:0 "Omnivore"
- ethic_omnivore_desc:0 "REPLACE_ME"
-
-
 

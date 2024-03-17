@@ -1,5 +1,0 @@
-#if you're wondering what this does, basically all these files are blank so that it replaces the vanilla prescript empires with nothing. 
-
-#this was done because changes made in the nop mod mean that vanilla empires are unfairly disadvantaged. they dont have any predator/prey ethic
-#this results in them being unable to reform their government, because without the ethic no government type is allowed. effectively blockign them from taking their third civic pick
-#the easiest solution was simply to remove them from the game.
