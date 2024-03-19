@@ -530,7 +530,7 @@
  civic_arxur_effects:0 "You cannot construct any food food producing buildings or districts, Allows the use of livestock slavery and grants the ability to raid other empires for livestock."
  Predator_must_eat:0 "Predators must eat."
 
- casus_belli_cb_prey:0 "prey"
- war_goal_wg_prey:0 "hunt"
+ casus_belli_cb_prey:0 "Prey"
+ war_goal_wg_prey:0 "Hunt"
  war_goal_wg_prey_desc:0 "They are potential prey"
  wg_prey_accept_them:0 "they provide us with valuable meat in exchange for their continued existance"

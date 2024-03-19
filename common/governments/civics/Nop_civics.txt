@@ -29,8 +29,10 @@ civic_arxur = {
 			}
 		}
 	}
-	modifier = { #country_base_food_produces_add = 90 #compensate for the lack of farms and stuff
-			army_attack_damage_mult = 0.2
+	modifier = { 
+			country_base_food_produces_add = 20 #compensate for the lack of farms and stuff
+			army_attack_damage_mult = 0.4
 			country_naval_cap_mult = 0.2
+			planet_jobs_food_produces_mult = 0.4
 		}
 }
