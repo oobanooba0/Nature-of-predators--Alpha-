@@ -529,3 +529,8 @@
  civic_arxur_desc:0 "Due to an artificial plage cast upon this empire, all non sapient life forms have gone extinct, rendering farming of non sapients impossible. Your nature as an obligate carnovire leaves you with one, terrible choice... but it must be done."
  civic_arxur_effects:0 "You cannot construct any food food producing buildings or districts, Allows the use of livestock slavery and grants the ability to raid other empires for livestock."
  Predator_must_eat:0 "Predators must eat."
+
+ casus_belli_cb_prey:0 "prey"
+ war_goal_wg_prey:0 "hunt"
+ war_goal_wg_prey_desc:0 "They are potential prey"
+ wg_prey_accept_them:0 "they provide us with valuable meat in exchange for their continued existance"
