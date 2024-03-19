@@ -515,6 +515,7 @@
 	room="default_room"
 	spawn_enabled=yes
 	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
 	civics=
 	{
 		"civic_shadow_council"
@@ -709,6 +710,7 @@
 	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
+	ethic="ethic_pacifist"
 	civics=
 	{
 		"civic_memory_vault"
@@ -829,6 +831,7 @@
 	room="default_room"
 	spawn_enabled=yes
 	ethic="ethic_fanatic_militarist"
+	ethic="ethic_xenophobe"
 	civics=
 	{
 		"civic_heroic_tales"
@@ -959,7 +962,7 @@
 	room="default_room"
 	spawn_enabled=yes
 	ethic="ethic_xenophile"
-	ethic="ethic_spiritualist"
+	ethic="ethic_fanatic_spiritualist"
 	civics=
 	{
 		"civic_crafters"
