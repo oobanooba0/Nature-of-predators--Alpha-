@@ -6,7 +6,7 @@ building_hydroponics_farm = {
 	base_buildtime = @b1_time
 	category = resource
 	potential = {
-		Owner = {
+		owner = {
 			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
 		}
 		exists = owner
@@ -39,7 +39,7 @@ building_hydroponics_farm = {
 					}
 				}
 			}
-			Owner ={
+			owner ={
 				has_civic = civic_arxur #Destroys arxur farms
 			}
 		}
@@ -69,7 +69,7 @@ building_food_processing_facility = {
 	category = resource
 
 	potential = {
-		Owner = {
+		owner = {
 			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
 		}
 		exists = owner
@@ -103,7 +103,7 @@ building_food_processing_facility = {
 				}
 				has_any_farming_district_or_buildings = no
 			}
-			Owner ={
+			owner ={
 				has_civic = civic_arxur #Destroys arxur farms
 			}
 		}
@@ -150,7 +150,7 @@ building_food_processing_center = {
 
 	destroy_trigger = {
 		OR = {
-			Owner ={
+			owner ={
 				has_civic = civic_arxur #Destroys arxur farms
 			}
 			AND = {
@@ -874,7 +874,7 @@ building_bio_reactor = {
 	category = resource
 
 	potential = {
-		Owner = {
+		owner = {
 			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
 		}
 		exists = owner
@@ -895,7 +895,7 @@ building_bio_reactor = {
 	destroy_trigger = {
 		exists = owner
 		OR = {
-			Owner ={
+			owner ={
 				has_civic = civic_arxur #Destroys arxur farms
 			}
 			owner = {
@@ -972,7 +972,7 @@ building_bio_reactor_2 = {
 	destroy_trigger = {
 		exists = owner
 		OR = {
-			Owner ={
+			owner ={
 				has_civic = civic_arxur #Destroys arxur farms
 			}
 			owner = {

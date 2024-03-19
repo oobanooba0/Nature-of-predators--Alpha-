@@ -2115,7 +2115,7 @@ col_habitat_farming = {
 	icon = GFX_colony_type_habitat_farming
 	custom_tooltip = col_habitat_farming_desc_custom
 	potential = {
-		Owner = {
+		owner = {
 			NOT = {has_civic = civic_arxur} #Dissallows arxur from using the farming habitat
 		}
 		uses_district_set = habitat

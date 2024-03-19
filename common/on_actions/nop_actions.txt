@@ -1,0 +1,33 @@
+# fired when the game starts
+on_game_start = {
+	events = {
+		nop.13 # flag mod as installed
+	}
+}
+
+# fired when loading a single-player game
+on_single_player_save_game_load = {
+	events = {
+		nop.13 # flag mod as installed
+	}
+}
+
+# fired during empire initialization when starting a new game
+# THIS = country
+empire_init_add_technologies = {
+	events = {
+		nop.3
+	}
+}
+
+# fired during empire initialization when starting a new game
+# Called before empire_init_create_capital_pops.
+# THIS = planet, capital
+# FROM = species, founder
+# FROMFROM = species, secondary (if exists)
+empire_init_capital_planet = {
+	events = {
+		nop.1
+		nop.2
+	}
+}

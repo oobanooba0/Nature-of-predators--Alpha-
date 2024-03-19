@@ -588,7 +588,7 @@ district_rw_farming = {
 	show_on_uncolonized = { uses_district_set = ring_world }
 
 	potential = {
-		Owner = {
+		owner = {
 			NOT = {has_civic = civic_arxur} #no arxur farms
 		}
 		uses_district_set = ring_world

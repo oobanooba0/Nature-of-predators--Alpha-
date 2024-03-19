@@ -291,7 +291,7 @@ district_farming = {
 
 	potential = {
 		uses_district_set = standard
-		Owner = {
+		owner = {
 			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
 		}
 		OR = {
@@ -887,7 +887,7 @@ district_farming_uncapped = {
 	}
 
 	potential = {
-		Owner = {
+		owner = {
 			NOT = {has_civic = civic_arxur} #dissalows arxur from building farms
 		}
 		OR = {

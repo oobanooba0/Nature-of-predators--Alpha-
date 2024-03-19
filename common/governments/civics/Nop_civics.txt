@@ -1,4 +1,5 @@
 civic_arxur = {
+	modification = NO
 	description = "civic_arxur_effects"
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
@@ -6,6 +7,10 @@ civic_arxur = {
 	}
 	possible = {
 		ethics = {
+			NOT = {
+				value = ethic_fanatic_egalitarian
+				value = ethic_egalitarian
+			}
 		}
 		civics = {
 		}
@@ -24,9 +29,6 @@ civic_arxur = {
 			}
 		}
 	}
-	modifier = {
-	}
-	has_secondary_species = {
-		title = "Livestock Species"
-	}
+	modifier = { country_base_food_produces_add = 90 #compensate for the lack of farms and stuff
+		}
 }
