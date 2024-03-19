@@ -61,7 +61,7 @@
 	}
 	planet_class="pc_continental"
 	system_name={
-		key="Venlil Prime"
+		key="Gilese 832"
 		literal=yes
 	}
 	initializer="Venlilprimesystem"

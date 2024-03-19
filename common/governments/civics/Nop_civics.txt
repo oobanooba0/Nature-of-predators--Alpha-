@@ -1,0 +1,32 @@
+civic_arxur = {
+	description = "civic_arxur_effects"
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	possible = {
+		ethics = {
+		}
+		civics = {
+		}
+	}
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+			}
+		}
+	}
+	modifier = {
+	}
+	has_secondary_species = {
+		title = "Livestock Species"
+	}
+}

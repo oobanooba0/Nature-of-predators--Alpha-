@@ -37,7 +37,7 @@ Venlilprimesystem = {
 	planet = {
 		count = 1
 		home_planet = yes
-		class = pc_continental
+		class = ideal_planet_class
 		orbit_distance = 0
 		orbit_angle = { min = 90 max = 270 }
 		size = 25
