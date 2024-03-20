@@ -100,3 +100,47 @@ portraits = {
 	}
 	}
 	
+#Trilolamvarala portrait initialiser
+portraits = {
+	trilo0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/trilo0.png"   }
+	}
+	portrait_groups = {
+	trilolaramvalalala  = {
+	default = trilo0
+	game_setup = {
+	add = {
+	portraits = {
+		trilo0
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		trilo0
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		trili0
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		trilo0
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		trilo0
+	}
+	}
+	}
+	}
+	}
