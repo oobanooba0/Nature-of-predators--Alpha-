@@ -5,32 +5,51 @@
 building_hydroponics_farm = {
 	base_buildtime = @b1_time
 	category = resource
+
 	potential = {
+        exists = owner
+
 		owner = {
-			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
-		}
-		exists = owner
-		owner = {
+			NOT = {
+                has_civic = civic_arxur # Dissallows arxur from building farms
+            }
+
 			OR = {
 				country_uses_food = yes
 				is_ai = no
 			}
+
 		}
-        NOT = { is_planet_class = pc_machine }
-        NOT = { has_modifier = resort_colony }
+
+        NOT = {
+            is_planet_class = pc_machine
+        }
+
+        NOT = {
+            has_modifier = resort_colony
+        }
     }
+
 	allow = {
+        # Todo?
 	}
+
 	destroy_trigger = {
 		exists = owner
 		OR = {
 			owner = {
 				is_ai = yes
 				country_uses_food = no
+				has_civic = civic_arxur # Destroys arxur farms
 			}
+
 			planet = {
-				NOT = { is_planet_class = pc_habitat }
+				NOT = {
+                    is_planet_class = pc_habitat
+                }
+
 				free_building_slots = 0
+
 				owner = {
 					is_ai = yes
 					has_monthly_income = {
@@ -39,16 +58,15 @@ building_hydroponics_farm = {
 					}
 				}
 			}
-			owner ={
-				has_civic = civic_arxur #Destroys arxur farms
-			}
 		}
 	}
+
 	inline_script = {
 		script = jobs/farmers_add
 		FARMER_AMOUNT = 3
 		ANGLER_AMOUNT = 2
 	}
+
 	resources = {
 		category = planet_buildings
 		cost = {
@@ -58,6 +76,7 @@ building_hydroponics_farm = {
 			energy = 2
 		}
 	}
+
 	prerequisites = {
 		"tech_hydroponics"
 	}
@@ -70,9 +89,12 @@ building_food_processing_facility = {
 
 	potential = {
 		owner = {
-			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
-		}
+			NOT = {
+                has_civic = civic_arxur # Dissallows from building farms.
+            }
+        }
 		exists = owner
+
 		NOR = {
 			is_planet_class = pc_machine
 			has_modifier = resort_colony
@@ -93,18 +115,18 @@ building_food_processing_facility = {
 			owner = {
 				is_ai = yes
 				country_uses_food = no
+				has_civic = civic_arxur # Destroys arxur farms
 			}
+
 			is_planet_class = pc_machine
 			has_modifier = resort_colony
 			has_modifier = crucible_colony
+
 			AND = {
 				owner = {
 					is_ai = yes
 				}
 				has_any_farming_district_or_buildings = no
-			}
-			owner ={
-				has_civic = civic_arxur #Destroys arxur farms
 			}
 		}
 	}
@@ -150,9 +172,10 @@ building_food_processing_center = {
 
 	destroy_trigger = {
 		OR = {
-			owner ={
+			owner = {
 				has_civic = civic_arxur #Destroys arxur farms
 			}
+
 			AND = {
 				exists = owner
 				OR = {
@@ -168,6 +191,7 @@ building_food_processing_center = {
 					}
 				}
 			}
+
 			is_planet_class = pc_machine
 			has_modifier = resort_colony
 			has_modifier = crucible_colony
@@ -355,14 +379,14 @@ building_mineral_purification_plant = {
 		NOR = {
 			has_modifier = resort_colony
 			has_modifier = crucible_colony
-		}
-
-		NOR = { # Ringworlds don't have mines
-			is_planet_class = pc_ringworld_habitable
+            is_planet_class = pc_ringworld_habitable # Ringworlds don't have mines
 			is_planet_class = pc_cybrex
 		}
+
 		OR = {
-			NOT = { is_planet_class = pc_habitat }
+			NOT = {
+                is_planet_class = pc_habitat
+            }
 			AND = {
 				is_planet_class = pc_habitat
 				check_modifier_value = {
@@ -371,6 +395,7 @@ building_mineral_purification_plant = {
 				}
 			}
 		}
+
 		OR = {
 			owner = {
 				is_ai = no
@@ -409,9 +434,11 @@ building_mineral_purification_plant = {
 
 	resources = {
 		category = planet_buildings
+
 		cost = {
 			minerals = 200
 		}
+
 		cost = {
 			trigger = {
 				owner = {
@@ -438,12 +465,19 @@ building_mineral_purification_plant = {
 building_mineral_purification_hub = {
 
 	desc = {
-		trigger = { NOT = { is_planet_class = pc_shattered_ring_habitable } }
+		trigger = {
+        NOT = {
+                is_planet_class = pc_shattered_ring_habitable
+            }
+        }
 		text = building_mineral_purification_hub_desc
 	}
 
 	desc = {
-		trigger = { is_planet_class = pc_shattered_ring_habitable }
+		trigger = {
+            is_planet_class = pc_shattered_ring_habitable
+        }
+
 		text = building_scrap_processing_hub_desc
 	}
 
