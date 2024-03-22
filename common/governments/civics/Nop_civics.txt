@@ -1,6 +1,8 @@
-civic_arxur = {
-	modification = NO
-	description = "civic_arxur_effects"
+origin_arxur = {
+	is_origin = Yes
+	icon = "gfx/interface/icons/origins/origins_default.dds" #tempoary graphics
+	picture = GFX_evt_metropolis
+	description = "origin_arxur_effects"
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 		authority = { NOT = { value = auth_corporate } }
@@ -16,20 +18,10 @@ civic_arxur = {
 		}
 		civics = {
 		}
+		species_archetype = {
+			value = BIOLOGICAL
+		}
 	}
-	random_weight = { base = @civic_default_random_weight }
-	ai_weight = {
-		base = @ai_civic_default_base_weight
-		modifier = {
-			factor = @ai_civic_personality_match_factor
-			OR = {
-			}
-		}
-		modifier = {
-			factor = @ai_civic_personality_mismatch_factor
-			OR = {
-			}
-		}
 	modifier = { 
 			country_base_food_produces_add = 20 #compensate for the lack of farms and stuff
 			army_attack_damage_mult = 0.4
@@ -37,4 +29,3 @@ civic_arxur = {
 			planet_jobs_food_produces_mult = 0.4
 		}
 	}
-}

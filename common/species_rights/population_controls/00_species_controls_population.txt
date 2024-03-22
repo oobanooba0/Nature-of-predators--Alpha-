@@ -9,7 +9,7 @@ population_control_yes = {
 
 	allow = {
 		from = {
-			has_civic = civic_arxur #this allows population controls
+			has_origin = origin_arxur #this allows population controls
 		}
 		hidden_trigger = { exists = from }
 		from = {
@@ -69,7 +69,7 @@ population_control_no = {
 		custom_tooltip = {#this prevents arxur from having non slave pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}

@@ -27,7 +27,7 @@ planet_event = {
         has_owner = yes
     }
     trigger = {
-        owner = { has_civic = civic_arxur }
+        owner = { has_origin = origin_arxur }
     }
     immediate = {
         # disable default initialization - this is a magic flag that disables the built-in capital planet setup,
@@ -53,7 +53,7 @@ planet_event = {
         has_owner = yes
     }
     trigger = {
-        owner = { has_civic = civic_arxur }
+        owner = { has_origin = origin_arxur }
     }
     immediate = {
         # this check for spawning Earth blockers is the same as built-in event game_start.12
@@ -91,7 +91,7 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		has_civic = civic_arxur
+		has_origin = origin_arxur
 	}
 	immediate = {
 		# give the technologies you want here

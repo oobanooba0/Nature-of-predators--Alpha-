@@ -53,7 +53,7 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	
-	spriteType = {
+	spriteType = {#For aruxr war goal
 		name = "GFX_wg_prey"
 		texturefile = "gfx/interface/icons/diplomacy/diplomacy_war.dds"
 		noOfFrames = 2

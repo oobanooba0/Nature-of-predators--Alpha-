@@ -23,7 +23,7 @@ slavery_normal = {
 		custom_tooltip = {#this prevents arxur from having non edible pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}
@@ -72,7 +72,7 @@ slavery_domestic = {
 		custom_tooltip = {#this prevents arxur from having non edible pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}
@@ -119,7 +119,7 @@ slavery_military = {
 		custom_tooltip = {#this prevents arxur from having non edible pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}
@@ -149,7 +149,7 @@ slavery_indentured = {
 		custom_tooltip = {#this prevents arxur from having non edible pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}
@@ -201,7 +201,7 @@ slavery_matrix = {
 		custom_tooltip = {#this prevents arxur from having non edible pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}
@@ -247,7 +247,7 @@ slavery_livestock = {
 					has_ethic = ethic_xenophobe
 					has_ethic = ethic_fanatic_xenophobe
 					has_ethic = ethic_gestalt_consciousness
-					has_civic = civic_arxur #this allows livestock, but i dont think its super well communicated
+					has_origin = origin_arxur #this allows livestock, but i dont think its super well communicated
 				}
 			}
 		}

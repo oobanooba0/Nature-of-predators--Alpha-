@@ -221,7 +221,7 @@ raiding = {
 			owner = { has_origin = origin_slavers }
 			owner = { has_origin = origin_khan_successor }
 			owner = { is_country_type = debt_collectors }
-			owner = { has_valid_civic = civic_arxur}
+			owner = { has_origin = origin_arxur}
 			AND = {
 				owner = { is_country_type = enclave_mercenary }
 				controller = {

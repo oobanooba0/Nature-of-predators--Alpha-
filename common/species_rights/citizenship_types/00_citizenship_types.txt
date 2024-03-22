@@ -20,7 +20,7 @@ citizenship_full = {
 	custom_tooltip = {#this prevents arxur from having non slave pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}
@@ -439,7 +439,7 @@ citizenship_limited = {
 		custom_tooltip = {#this prevents arxur from having non slave pops
 		fail_text = "Predator_must_eat"
 		OR = {
-			NOT = { from = { has_valid_civic = civic_arxur } }
+			NOT = { from = { has_origin = origin_arxur } }
 			is_same_species = from
 		}
 	}
@@ -751,7 +751,7 @@ citizenship_purge = {
 	}
 
 	allow = {
-		from = {has_civic = civic_arxur} #this should allow arxur to purge
+		from = {has_origin = origin_arxur} #this should allow arxur to purge
 		hidden_trigger = { exists = from }
 		if = {
 			limit = { is_lonely_hive_mind_pop = yes }

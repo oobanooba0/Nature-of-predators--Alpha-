@@ -370,159 +370,6 @@
 	}
 	origin="origin_shoulders_of_giants"
 }
-"The Kolshian"={
-	key="The Kolshian"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="AQUATIC"
-		portrait="aqu3"
-		species_name=
-		{
-			key="Kolshian"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Kolshian"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Kolshian"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="MOL4"
-		gender=not_set
-		trait="trait_talented"
-		trait="trait_quick_learners"
-		trait="trait_intelligent"
-		trait="trait_nonadaptive"
-	}
-	name=
-	{
-		key="The Kolshian"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Kolshian"
-				}
-			}
- 
-		}
-	}
-	authority="auth_dictatorial"
-	government="gov_constitutional_dictatorship"
-	advisor_voice_type="l_authoritarian"
-	planet_name=
-	{
-		key="Aafa"
-		literal=yes
-	}
-	planet_class="pc_ocean"
-	system_name=
-	{
-		key="Aafa System"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="aquatic_01"
-	city_graphical_culture="aquatic_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="zoological"
-			file="flag_zoological_3.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_37.dds"
-		}
-		colors=
-		{
-			"pink"
-			"black"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="MOL4_CHR_Yibroth"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="MOL4_CHR_Longshore"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="aqu3"
-		texture=0
-		attachment=0
-		clothes=0
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="default_room"
-	spawn_enabled=yes
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_militarist"
-	civics=
-	{
-		"civic_shadow_council"
-		"civic_police_state"
-	}
-	origin="origin_overtuned"
-}
 "Farsul Star Council"={
 	key="Farsul Star Council"
 	ship_prefix=
@@ -1151,7 +998,6 @@
 		}
 		name_list="arxur"
 		gender=not_set
-		trait="trait_perfected_genes"
 		trait="trait_solitary"
 		trait="trait_very_strong"
 		trait="trait_repugnant"
@@ -1233,9 +1079,7 @@
 			key="He ate people, which is probbably bad"
 			literal=yes
 		}
-		trait="leader_trait_legendary_harsh_ruler"
-		trait="leader_trait_legendary_military_knowledge"
-		trait="leader_trait_legendary_foe_hammer"
+		trait="trait_ruler_warlike"
 		leader_class="commander"
 	}
 	spawn_as_fallen=no
@@ -1247,9 +1091,160 @@
 	civics=
 	{
 		"civic_dystopian_society"
-		"civic_arxur"
+		"civic_distinguished_admiralty"
 	}
-	origin="origin_legendary_leader"
+	origin="origin_arxur"
 }
-
-
+"The Kolshian"={
+	key="The Kolshian"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="nop"
+		portrait="kolshian"
+		species_name=
+		{
+			key="Kolshian"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Kolshian"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Kolshian"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MOL4"
+		gender=not_set
+		trait="trait_talented"
+		trait="trait_quick_learners"
+		trait="trait_intelligent"
+		trait="trait_nonadaptive"
+	}
+	name=
+	{
+		key="The Kolshian"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Kolshian"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_constitutional_dictatorship"
+	advisor_voice_type="l_authoritarian"
+	planet_name=
+	{
+		key="Aafa"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Aafa System"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_3.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_37.dds"
+		}
+		colors=
+		{
+			"pink"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MOL4_CHR_Yibroth"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MOL4_CHR_Longshore"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="kolshian"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_shadow_council"
+		"civic_police_state"
+	}
+	origin="origin_overtuned"
+}

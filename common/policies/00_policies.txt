@@ -3432,7 +3432,7 @@ slavery = {
 			NOR = {
 				has_valid_civic = civic_slaver_guilds
 				has_valid_civic = civic_indentured_assets
-				has_valid_civic = civic_arxur
+				has_origin = origin_arxur
 			}
 		}
 
@@ -3529,7 +3529,7 @@ purge = {
 		valid = {
 			NOT = { has_ethic = ethic_gestalt_consciousness }
 			NOT = { has_valid_civic = "civic_fanatic_purifiers" }
-			NOT = { has_valid_civic = civic_arxur}
+			NOT = { has_origin = origin_arxur}
 		}
 
 		policy_flags = {
@@ -3602,7 +3602,7 @@ purge = {
 				has_ethic = ethic_xenophobe
 				has_ethic = ethic_fanatic_xenophobe
 				has_menace_perk = menp_undertaker	# Unlocked with Crisis Level 1
-				has_civic = civic_arxur #gotta let the arxur say death
+				has_origin = origin_arxur #gotta let the arxur say death
 			}
 		}
 
