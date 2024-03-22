@@ -96,4 +96,18 @@ country_event = {
 	immediate = {
 		# give the technologies you want here
 	}
+    immediate = {
+        capital_scope = {
+            solar_system = {
+                closest_system = {
+                    limit = { has_star_flag = neighbor_t1_first_colony}
+                    random_system_planet = {
+                        limit = { has_planet_flag = prescripted_ideal
+                        }
+                        generate_late_pre_ftls_on_planet = yes
+                    }
+                }
+            }
+        }
+    }
 }
