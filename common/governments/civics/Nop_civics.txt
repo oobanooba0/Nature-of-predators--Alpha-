@@ -36,5 +36,5 @@ civic_arxur = {
 			country_naval_cap_mult = 0.2
 			planet_jobs_food_produces_mult = 0.4
 		}
-	
+	}
 }
