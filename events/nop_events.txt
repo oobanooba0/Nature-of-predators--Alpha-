@@ -104,7 +104,7 @@ country_event = {
                     random_system_planet = {
                         limit = { has_planet_flag = prescripted_ideal
                         }
-                        generate_late_pre_ftls_on_planet = yes
+                        generate_early_pre_ftls_on_planet = yes
                     }
                 }
             }
