@@ -525,9 +525,9 @@
 
 
 #arxur Civic
- civic_arxur:0 "Deprived Predators"
- civic_arxur_desc:0 "Due to an artificial plague cast upon this empire, all non sapient life forms have gone extinct, rendering farming of non-sapients impossible. Your nature as an obligate carnivore leaves you with one, terrible choice... But it must be done."
- civic_arxur_effects:0 "You cannot construct any food food producing buildings or districts, Allows the use of livestock slavery and grants the ability to raid other empires for livestock."
+ origin_arxur:0 "Deprived Predators"
+ origin_arxur_desc:0 "Due to an artificial plague cast upon this empire, all non sapient life forms have gone extinct, rendering farming of non-sapients impossible. Your nature as an obligate carnivore leaves you with one, terrible choice... But it must be done."
+ origin_arxur_effects:0 "You cannot construct any food food producing buildings or districts, Allows the use of livestock slavery and grants the ability to raid other empires for livestock."
  Predator_must_eat:0 "Predators must eat."
 
  casus_belli_cb_prey:0 "Prey"

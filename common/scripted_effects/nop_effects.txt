@@ -1,6 +1,6 @@
 # set up starting pops - called by nop.1
 # this = planet, capital
-generate_civic_arxur_start_pops = {
+generate_origin_arxur_start_pops = {
 	# logging that will appear in game.log - this can be removed
 	log = "generate_origin_nop_example_start_pops on \\[This.GetName] for \\[This.Owner.GetRealName]"
 	# spawn a set number of main species Pops

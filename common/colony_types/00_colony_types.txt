@@ -2116,7 +2116,7 @@ col_habitat_farming = {
 	custom_tooltip = col_habitat_farming_desc_custom
 	potential = {
 		owner = {
-			NOT = {has_civic = civic_arxur} #Dissallows arxur from using the farming habitat
+			NOT = {has_origin = origin_arxur} #Dissallows arxur from using the farming habitat
 		}
 		uses_district_set = habitat
 		exists = owner

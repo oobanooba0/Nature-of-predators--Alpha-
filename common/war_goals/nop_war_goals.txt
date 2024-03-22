@@ -18,7 +18,7 @@ wg_prey = {
 
 	potential = {
 		has_total_war_cb = no
-		has_valid_civic = civic_arxur
+		has_origin = origin_arxur
 		NOT = { is_in_federation_with = from }
 		NAND = {
 			is_galactic_emperor = yes

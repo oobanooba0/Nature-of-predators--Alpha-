@@ -144,7 +144,7 @@ hydroponics_bay = {
 		exists = owner
 		owner = { has_technology = "tech_hydroponics" }
 		owner = {
-			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
+			NOT = {has_origin = origin_arxur} #Dissallows arxur from building farms
 		}
 	}
 

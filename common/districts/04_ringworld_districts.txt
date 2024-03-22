@@ -589,7 +589,7 @@ district_rw_farming = {
 
 	potential = {
 		owner = {
-			NOT = {has_civic = civic_arxur} #no arxur farms
+			NOT = {has_origin = origin_arxur} #no arxur farms
 		}
 		uses_district_set = ring_world
 		exists = owner

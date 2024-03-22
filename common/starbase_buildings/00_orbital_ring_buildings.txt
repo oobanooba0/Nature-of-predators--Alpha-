@@ -85,7 +85,7 @@ ring_food_hub = {
 		owner = { has_technology = tech_food_processing_2 }
 		is_orbital_ring = yes
 		owner = {
-			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
+			NOT = {has_origin = origin_arxur} #Dissallows arxur from building farms
 		}
 	}
 

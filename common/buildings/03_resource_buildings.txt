@@ -11,7 +11,7 @@ building_hydroponics_farm = {
 
 		owner = {
 			NOT = {
-                has_civic = civic_arxur # Dissallows arxur from building farms
+                has_origin = origin_arxur # Dissallows arxur from building farms
             }
 
 			OR = {
@@ -40,7 +40,7 @@ building_hydroponics_farm = {
 			owner = {
 				is_ai = yes
 				country_uses_food = no
-				has_civic = civic_arxur # Destroys arxur farms
+				has_origin = origin_arxur # Destroys arxur farms
 			}
 
 			planet = {
@@ -90,7 +90,7 @@ building_food_processing_facility = {
 	potential = {
 		owner = {
 			NOT = {
-                has_civic = civic_arxur # Dissallows from building farms.
+                has_origin = origin_arxur # Dissallows from building farms.
             }
         }
 		exists = owner
@@ -115,7 +115,7 @@ building_food_processing_facility = {
 			owner = {
 				is_ai = yes
 				country_uses_food = no
-				has_civic = civic_arxur # Destroys arxur farms
+				has_origin = origin_arxur # Destroys arxur farms
 			}
 
 			is_planet_class = pc_machine
@@ -173,7 +173,7 @@ building_food_processing_center = {
 	destroy_trigger = {
 		OR = {
 			owner = {
-				has_civic = civic_arxur #Destroys arxur farms
+				has_origin = origin_arxur #Destroys arxur farms
 			}
 
 			AND = {
@@ -909,7 +909,7 @@ building_bio_reactor = {
 
 	potential = {
 		owner = {
-			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
+			NOT = {has_origin = origin_arxur} #Dissallows arxur from building farms
 		}
 		exists = owner
 		NOR = {
@@ -930,7 +930,7 @@ building_bio_reactor = {
 		exists = owner
 		OR = {
 			owner ={
-				has_civic = civic_arxur #Destroys arxur farms
+				has_origin = origin_arxur #Destroys arxur farms
 			}
 			owner = {
 				is_ai = yes
@@ -1007,7 +1007,7 @@ building_bio_reactor_2 = {
 		exists = owner
 		OR = {
 			owner ={
-				has_civic = civic_arxur #Destroys arxur farms
+				has_origin = origin_arxur #Destroys arxur farms
 			}
 			owner = {
 				is_ai = yes

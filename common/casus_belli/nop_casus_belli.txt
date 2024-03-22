@@ -14,7 +14,7 @@ cb_prey = {
 	show_notification = no
 	potential = {
 		is_country_type = default
-		has_valid_civic = civic_arxur
+		has_origin = origin_arxur
 	}
 	is_valid = {
 		has_total_war_cb = no

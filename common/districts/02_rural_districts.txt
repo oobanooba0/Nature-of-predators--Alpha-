@@ -292,7 +292,7 @@ district_farming = {
 	potential = {
 		uses_district_set = standard
 		owner = {
-			NOT = {has_civic = civic_arxur} #Dissallows arxur from building farms
+			NOT = {has_origin = origin_arxur} #Dissallows arxur from building farms
 		}
 		OR = {
 			NOT = { exists = owner }
@@ -888,7 +888,7 @@ district_farming_uncapped = {
 
 	potential = {
 		owner = {
-			NOT = {has_civic = civic_arxur} #dissalows arxur from building farms
+			NOT = {has_origin = origin_arxur} #dissalows arxur from building farms
 		}
 		OR = {
 			uses_district_set = hive_world
