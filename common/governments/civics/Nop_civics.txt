@@ -7,9 +7,11 @@ civic_arxur = {
 	}
 	possible = {
 		ethics = {
-			NOT = {
+			NOR = {
 				value = ethic_fanatic_egalitarian
 				value = ethic_egalitarian
+				value = ethic_xenophile
+				value = ethic_fanatic_egalitarian
 			}
 		}
 		civics = {
@@ -28,11 +30,11 @@ civic_arxur = {
 			OR = {
 			}
 		}
-	}
 	modifier = { 
 			country_base_food_produces_add = 20 #compensate for the lack of farms and stuff
 			army_attack_damage_mult = 0.4
 			country_naval_cap_mult = 0.2
 			planet_jobs_food_produces_mult = 0.4
 		}
+	
 }

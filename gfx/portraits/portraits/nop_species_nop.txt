@@ -144,3 +144,47 @@ portraits = {
 	}
 	}
 	}
+#Kolshian portrait initialiser
+portraits = {
+	kolshian0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/kolshian0.png"   }#thanks UnitedPatriots
+	}
+	portrait_groups = {
+	kolshian  = {
+	default = kolshian0
+	game_setup = {
+	add = {
+	portraits = {
+		kolshian0
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		kolshian0
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		trili0
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		kolshian0
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		kolshian0
+	}
+	}
+	}
+	}
+	}
