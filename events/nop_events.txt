@@ -73,7 +73,7 @@ planet_event = {
             generate_start_deposits_and_blockers = yes          # built-in game effect
         }
         generate_start_buildings_and_districts = yes            # built-in game effect
-        while = { count = 3
+        while = { count = 3 
          remove_district = district_farming 
         }
         add_district = district_mining
@@ -96,18 +96,29 @@ country_event = {
 	immediate = {
 		# give the technologies you want here
 	}
-    immediate = {
+    immediate = {#time to generate my custom pre ftl species
         capital_scope = {
             solar_system = {
                 closest_system = {
                     limit = { has_star_flag = neighbor_t1_first_colony}
                     random_system_planet = {
-                        limit = { has_planet_flag = prescripted_ideal
+                        limit = { has_planet_flag = prescripted_ideal}
+                        create_pre_ftl_empire = yes
+                        last_created_country = {
+                            set_pre_ftl_age = early_space_age
                         }
-                        generate_early_pre_ftls_on_planet = yes
+                        create_pre_ftl_species = yes
+                        while = {count = 12 #sets the number of pre ftls on the planet
+                        create_pop = {
+                            species = last_created_species
+                            }
+                        }
+                        last_created_country = {#tbh idk why this is a country scope thing rather than a planet scope thing but whatever
+                            add_pre_ftl_buildings = yes
+                        }
+                        }
                     }
                 }
             }
         }
     }
-}
