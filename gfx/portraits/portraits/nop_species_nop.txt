@@ -1,7 +1,6 @@
 #venlil portrait initialisers (these get the venlil portraits into the game) remember to also like do the thing in nop_speices_classes.txt
 portraits = {
 	venlil0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/venlil0.png"   }
-	venlil1 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/venlil1.png"   }
 	}
 	portrait_groups = {
 	venlil = {
@@ -10,7 +9,6 @@ portraits = {
 	add = {
 	portraits = {
 		venlil0
-		venlil1
 	}
 	}
 	}
@@ -18,7 +16,6 @@ portraits = {
 	add = {
 	portraits = {
 		venlil0
-		venlil1
 	}
 	}
 	}
@@ -26,7 +23,6 @@ portraits = {
 	add = {
 	portraits = {
 		venlil0
-		venlil1
 	}
 	}
 	}
@@ -34,7 +30,6 @@ portraits = {
 	add = {
 	portraits = {
 		venlil0
-		venlil1
 	}
 	}
 	}
@@ -42,7 +37,6 @@ portraits = {
 	add = {
 	portraits = {
 		venlil0
-		venlil1
 	}
 	}
 	}
@@ -144,6 +138,50 @@ portraits = {
 	}
 	}
 	}
+#Gojid portrait initialiser
+portraits = {
+	gojid0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/gojid0.png"   }#thanks funnybones
+	}
+	portrait_groups = {
+	gojid  = {
+	default = gojid0
+	game_setup = {
+	add = {
+	portraits = {
+		gojid0
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		gojid0
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		gojid0
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		gojid0
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		gojid0
+	}
+	}
+	}
+	}
+	}
 #Kolshian portrait initialiser
 portraits = {
 	kolshian0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/kolshian0.png"   }#thanks UnitedPatriots
@@ -168,7 +206,7 @@ portraits = {
 	pop = {
 	add = {
 	portraits = {
-		trili0
+		kolshian0
 	}
 	}
 	}
@@ -183,6 +221,138 @@ portraits = {
 	add = {
 	portraits = {
 		kolshian0
+	}
+	}
+	}
+	}
+	}
+#Yotul portrait initialiser
+portraits = {
+	yotul0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/yotul0.png"   }#thanks funnybones
+	}
+	portrait_groups = {
+	yotul  = {
+	default = yotul0
+	game_setup = {
+	add = {
+	portraits = {
+		yotul0
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		yotul0
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		yotul0
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		yotul0
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		yotul0
+	}
+	}
+	}
+	}
+	}
+#Nevok portrait initialiser
+portraits = {
+	nevok0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/nevok0.png"   }#thanks funnybones
+	}
+	portrait_groups = {
+	nevok  = {
+	default = nevok0
+	game_setup = {
+	add = {
+	portraits = {
+		nevok0
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		nevok0
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		nevok0
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		nevok0
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		nevok0
+	}
+	}
+	}
+	}
+	}
+#Krakotl portrait initialiser
+	portraits = {
+	krakotl0 = { greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/krakotl0.png"   }#Thanks UnitedPatrieots
+	}
+	portrait_groups = {
+	krakotl  = {
+	default = krakotl0
+	game_setup = {
+	add = {
+	portraits = {
+		krakotl0
+	}
+	}
+	}
+	species = {
+	add = {
+	portraits = {
+		krakotl0
+	}
+	}
+	}
+	pop = {
+	add = {
+	portraits = {
+		krakotl0
+	}
+	}
+	}
+	leader = {
+	add = {
+	portraits = {
+		krakotl0
+	}
+	}
+	}
+	ruler = {
+	add = {
+	portraits = {
+		krakotl0
 	}
 	}
 	}

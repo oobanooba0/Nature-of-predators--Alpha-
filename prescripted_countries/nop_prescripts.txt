@@ -1,27 +1,36 @@
 #just copy paste from my game files lmfao
-"United Nations"={
+"United Nations"=
+{
 	key="United Nations"
-	ship_prefix={
+	ship_prefix=
+	{
 		key=""
 		literal=yes
 	}
-	species={
+	species=
+	{
 		class="HUM"
 		portrait="human"
-		species_name={
+		species_name=
+		{
 			key="Human"
 			literal=yes
 		}
-		species_plural={
+		species_plural=
+		{
 			key="Humans"
 			literal=yes
 		}
-		species_adjective={
+		species_adjective=
+		{
 			key="%ADJECTIVE%"
-			variables={
+			variables=
+			{
+				
 				{
 					key="adjective"
-					value={
+					value=
+					{
 						key="Human"
 						literal=yes
 					}
@@ -36,16 +45,21 @@
 		trait="trait_natural_engineers"
 		trait="trait_quick_learners"
 	}
-	name={
+	name=
+	{
 		key="United Nations"
 		literal=yes
 	}
-	adjective={
+	adjective=
+	{
 		key="%ADJ%"
-		variables={
+		variables=
+		{
+			
 			{
 				key="adjective"
-				value={
+				value=
+				{
 					key="United Nations"
 					literal=yes
 				}
@@ -56,38 +70,47 @@
 	authority="auth_democratic"
 	government="gov_representative_democracy"
 	advisor_voice_type="l_egalitarian"
-	planet_name={
+	planet_name=
+	{
 		key="Earth"
 		literal=yes
 	}
 	planet_class="pc_continental"
-	system_name={
+	system_name=
+	{
 		key="Sol"
 		literal=yes
 	}
 	initializer="sol_system_initializer"
 	graphical_culture="mammalian_01"
 	city_graphical_culture="mammalian_01"
-	empire_flag={
-		icon={
+	empire_flag=
+	{
+		icon=
+		{
 			category="human"
 			file="flag_human_9.dds"
 		}
-		background={
+		background=
+		{
 			category="backgrounds"
 			file="00_solid.dds"
 		}
-		colors={
+		colors=
+		{
 			"intense_blue"
 			"blue"
 			"black"
 			"null"
 		}
 	}
-	ruler={
+	ruler=
+	{
 		gender=male
-		name={
-			full_names={
+		name=
+		{
+			full_names=
+			{
 				key="Elias Meier"
 				literal=yes
 			}
@@ -97,7 +120,7 @@
 		attachment=14
 		clothes=1
 		trait="leader_trait_fleet_organizer"
-		leader_class="admiral"
+		leader_class="commander"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -105,13 +128,15 @@
 	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_xenophile"
-	civics={
+	civics=
+	{
 		"civic_beacon_of_liberty"
 		"civic_idealistic_foundation"
 	}
 	origin="origin_default"
 }
-"The Venlil Republic"={
+"The Venlil Republic"=
+{
 	key="The Venlil Republic"
 	ship_prefix=
 	{
@@ -236,7 +261,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
@@ -247,7 +272,8 @@
 	}
 	origin="origin_remnants"
 }
-"The Krakotl"={
+"The Krakotl"=
+{
 	key="The Krakotl"
 	ship_prefix=
 	{
@@ -255,8 +281,8 @@
 	}
 	species=
 	{
-		class="AVI"
-		portrait="avi2"
+		class="nop"
+		portrait="krakotl"
 		species_name=
 		{
 			key="Krakotl"
@@ -350,7 +376,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="avi2"
+		portrait="krakotl"
 		texture=0
 		attachment=0
 		clothes=4
@@ -360,7 +386,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_militarist"
 	civics=
@@ -370,7 +396,162 @@
 	}
 	origin="origin_shoulders_of_giants"
 }
-"Farsul Star Council"={
+"The Kolshian"=
+{
+	key="The Kolshian"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="nop"
+		portrait="kolshian"
+		species_name=
+		{
+			key="Kolshian"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Kolshian"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Kolshian"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MOL4"
+		gender=not_set
+		trait="trait_talented"
+		trait="trait_quick_learners"
+		trait="trait_intelligent"
+		trait="trait_nonadaptive"
+	}
+	name=
+	{
+		key="The Kolshian"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Kolshian"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_constitutional_dictatorship"
+	advisor_voice_type="l_authoritarian"
+	planet_name=
+	{
+		key="Aafa"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Aafa System"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_3.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_37.dds"
+		}
+		colors=
+		{
+			"pink"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MOL4_CHR_Yibroth"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MOL4_CHR_Longshore"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="kolshian"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_shadow_council"
+		"civic_police_state"
+	}
+	origin="origin_overtuned"
+}
+"Farsul Star Council"=
+{
 	key="Farsul Star Council"
 	ship_prefix=
 	{
@@ -554,7 +735,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
 	ethic="ethic_pacifist"
@@ -565,7 +746,8 @@
 	}
 	origin="origin_default"
 }
-"Duerten Shield"={
+"Duerten Shield"=
+{
 	key="Duerten Shield"
 	ship_prefix=
 	{
@@ -676,7 +858,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_militarist"
 	ethic="ethic_xenophobe"
 	civics=
@@ -686,7 +868,8 @@
 	}
 	origin="origin_default"
 }
-"Gojid Union"={
+"Gojid Union"=
+{
 	key="Gojid Union"
 	ship_prefix=
 	{
@@ -694,8 +877,8 @@
 	}
 	species=
 	{
-		class="MAM"
-		portrait="mam17"
+		class="nop"
+		portrait="gojid"
 		species_name=
 		{
 			key="Gojid"
@@ -798,7 +981,7 @@
 				literal=yes
 			}
 		}
-		portrait="mam17"
+		portrait="gojid"
 		texture=0
 		attachment=0
 		clothes=4
@@ -807,7 +990,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_spiritualist"
 	civics=
@@ -817,7 +1000,8 @@
 	}
 	origin="origin_common_ground"
 }
-"Yotul Assembly"={
+"Yotul Assembly"=
+{
 	key="Yotul Assembly"
 	ship_prefix=
 	{
@@ -825,8 +1009,8 @@
 	}
 	species=
 	{
-		class="MAM"
-		portrait="mam6"
+		class="nop"
+		portrait="yotul"
 		species_name=
 		{
 			key="Yotul"
@@ -950,7 +1134,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="mam6"
+		portrait="yotul"
 		texture=0
 		attachment=0
 		clothes=4
@@ -960,7 +1144,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_materialist"
 	civics=
@@ -970,7 +1154,8 @@
 	}
 	origin="origin_imperial_vassal"
 }
-"Arxur Dominion"={
+"Arxur Dominion"=
+{
 	key="Arxur Dominion"
 	ship_prefix=
 	{
@@ -1095,8 +1280,9 @@
 	}
 	origin="origin_arxur"
 }
-"The Kolshian"={
-	key="The Kolshian"
+"Nevok Corperation"=
+{
+	key="Nevok Corperation"
 	ship_prefix=
 	{
 		key="ISS"
@@ -1104,15 +1290,15 @@
 	species=
 	{
 		class="nop"
-		portrait="kolshian"
+		portrait="nevok"
 		species_name=
 		{
-			key="Kolshian"
+			key="Nevok"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Kolshian"
+			key="Nevok"
 			literal=yes
 		}
 		species_adjective=
@@ -1125,23 +1311,23 @@
 					key="adjective"
 					value=
 					{
-						key="Kolshian"
+						key="Nevok"
 						literal=yes
 					}
 				}
  
 			}
 		}
-		name_list="MOL4"
+		name_list="HUMAN2"
 		gender=not_set
-		trait="trait_talented"
-		trait="trait_quick_learners"
-		trait="trait_intelligent"
-		trait="trait_nonadaptive"
+		trait="trait_thrifty"
+		trait="trait_rapid_breeders"
+		trait="trait_fleeting"
+		trait="trait_wasteful"
 	}
 	name=
 	{
-		key="The Kolshian"
+		key="Nevok Corperation"
 		literal=yes
 	}
 	adjective=
@@ -1154,45 +1340,45 @@
 				key="adjective"
 				value=
 				{
-					key="Kolshian"
+					key="Nevok"
 				}
 			}
  
 		}
 	}
-	authority="auth_dictatorial"
-	government="gov_constitutional_dictatorship"
-	advisor_voice_type="l_authoritarian"
+	authority="auth_corporate"
+	government="gov_trade_league"
+	advisor_voice_type="l_slick_corp"
 	planet_name=
 	{
-		key="Aafa"
+		key="Nevok Homeworld"
 		literal=yes
 	}
-	planet_class="pc_ocean"
+	planet_class="pc_continental"
 	system_name=
 	{
-		key="Aafa System"
+		key="Nevok Homestar"
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="aquatic_01"
-	city_graphical_culture="aquatic_01"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
 	empire_flag=
 	{
 		icon=
 		{
-			category="zoological"
-			file="flag_zoological_3.dds"
+			category="corporate"
+			file="corporate_02.dds"
 		}
 		background=
 		{
 			category="backgrounds"
-			file="flag_BG_37.dds"
+			file="horizontal.dds"
 		}
 		colors=
 		{
-			"pink"
-			"black"
+			"bright_yellow"
+			"dark_teal"
 			"black"
 			"null"
 		}
@@ -1204,47 +1390,27 @@
 		{
 			full_names=
 			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="MOL4_CHR_Yibroth"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="MOL4_CHR_Longshore"
-						}
-					}
- 
-				}
+				key="Big bun"
+				literal=yes
 			}
-			use_full_regnal_name=yes
 		}
-		portrait="kolshian"
+		portrait="nevok0"
 		texture=0
 		attachment=0
 		clothes=0
-		trait="leader_trait_principled"
+		trait="trait_ruler_charismatic"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="default_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_militarist"
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
 	civics=
 	{
-		"civic_shadow_council"
-		"civic_police_state"
+		"civic_trading_posts"
+		"civic_free_traders"
 	}
-	origin="origin_overtuned"
+	origin="origin_default"
 }
