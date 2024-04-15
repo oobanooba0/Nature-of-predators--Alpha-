@@ -1,4 +1,4 @@
-version="0.0.6" #call an ambulance
+version="0.0.6"
 tags={
 	"Species"
 }
