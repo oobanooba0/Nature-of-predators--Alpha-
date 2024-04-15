@@ -175,11 +175,10 @@
 		}
 		name_list="venlil"
 		gender=not_set
-		trait="trait_weak"
 		trait="trait_docile"
-		trait="trait_agrarian"
 		trait="trait_communal"
-		trait="trait_slow_breeders"
+		trait="trait_gene_cripple"
+		trait="trait_strong"
 	}
 	name=
 	{

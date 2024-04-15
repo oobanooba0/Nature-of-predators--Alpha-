@@ -534,3 +534,6 @@
  war_goal_wg_prey:0 "Hunt"
  war_goal_wg_prey_desc:0 "They are potential prey. We hunger."
  wg_prey_accept_them:0 "They provide us with valuable meat in exchange for their continued existence."
+#Genetically Crippled Trait
+ trait_gene_cripple:0 "Genetically Crippled"
+ trait_gene_cripple_desc:0 "A genetic disability affects all living members of this species. Weather this is a result of poor luck in evolution or something more sinister remains to be seen. This trait can be removed once powered exoskeletons are researched."
