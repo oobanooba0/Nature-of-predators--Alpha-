@@ -135,9 +135,9 @@
 	}
 	origin="origin_default"
 }
-"The Venlil Republic"=
+"Venlil Republic"=
 {
-	key="The Venlil Republic"
+	key="Venlil Republic"
 	ship_prefix=
 	{
 		key="ISS"
@@ -182,7 +182,7 @@
 	}
 	name=
 	{
-		key="The Venlil Republic"
+		key="Venlil Republic"
 		literal=yes
 	}
 	adjective=
@@ -271,9 +271,9 @@
 	}
 	origin="origin_remnants"
 }
-"The Krakotl"=
+"Krakotl"=
 {
-	key="The Krakotl"
+	key="Krakotl"
 	ship_prefix=
 	{
 		key="ISS"
@@ -307,7 +307,7 @@
 	}
 	name=
 	{
-		key="The Krakotl"
+		key="Krakotl"
 		literal=yes
 	}
 	adjective=
@@ -395,9 +395,9 @@
 	}
 	origin="origin_shoulders_of_giants"
 }
-"The Kolshian"=
+"Kolshian"=
 {
-	key="The Kolshian"
+	key="Kolshian"
 	ship_prefix=
 	{
 		key="ISS"
@@ -442,7 +442,7 @@
 	}
 	name=
 	{
-		key="The Kolshian"
+		key="Kolshian"
 		literal=yes
 	}
 	adjective=
@@ -1279,9 +1279,9 @@
 	}
 	origin="origin_arxur"
 }
-"Nevok Corperation"=
+"Nevok Corporation"=
 {
-	key="Nevok Corperation"
+	key="Nevok Corporation"
 	ship_prefix=
 	{
 		key="ISS"
